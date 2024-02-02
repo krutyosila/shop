@@ -5,7 +5,7 @@
     <div class="overflow-hidden rounded-lg aspect-w-1 aspect-h-1">
         @if ($product->thumbnail)
             <img class="object-cover transition-transform duration-300 group-hover:scale-105"
-                 src="{{ $product->thumbnail->getUrl('medium') }}"
+                 src="{{ $product->thumbnail->getUrl('medium') }}?v=1"
                  alt="{{ $product->translateAttribute('name') }}" />
         @endif
     </div>
