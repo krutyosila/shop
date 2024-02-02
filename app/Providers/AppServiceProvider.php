@@ -25,6 +25,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(ShippingModifiers $shippingModifiers)
     {
+        if($this->app->environment('production')) {
+            \URL::forceScheme('https');
+        }
         $shippingModifiers->add(
             ShippingModifier::class
         );
