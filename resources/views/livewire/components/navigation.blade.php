@@ -57,11 +57,11 @@
                         Brands
                     </a>
                     <ul class="dropdown-menu">
-                        @foreach ($this->collections as $collection)
+                        @foreach ($brands as $brand)
                             <li>
                                 <a class="dropdown-item"
-                                   href="{{ route('collection.view', $collection->defaultUrl->slug) }}">
-                                    {{ $collection->translateAttribute('name') }}
+                                   href="{{ route('brands.view', $brand->defaultUrl->slug) }}">
+                                    {{ $brand->translate('name') }}
                                 </a>
                             </li>
                         @endforeach

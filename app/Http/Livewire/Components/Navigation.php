@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Components;
 
 use Livewire\Component;
+use Lunar\Models\Brand;
 use Lunar\Models\Collection;
 
 class Navigation extends Component
@@ -33,6 +34,7 @@ class Navigation extends Component
 
     public function render()
     {
-        return view('livewire.components.navigation');
+        $brands = Brand::all();
+        return view('livewire.components.navigation', compact('brands'));
     }
 }
