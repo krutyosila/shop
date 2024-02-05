@@ -18,6 +18,10 @@
         href="{{ asset('css/app.css') }}"
         rel="stylesheet"
     >
+    <link
+        href="{{ asset('css/w.css') }}"
+        rel="stylesheet"
+    >
 
     <script
         defer

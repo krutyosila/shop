@@ -5,10 +5,9 @@
     <button class="border-0" type="button"
             x-on:click="linesVisible = !linesVisible">
         <span class="sr-only">Cart</span>
-
         <span class="place-self-center">
             <svg xmlns="http://www.w3.org/2000/svg"
-                 class="w-4 h-4"
+                 class="w-6 h-6"
                  fill="none"
                  viewBox="0 0 24 24"
                  stroke="currentColor">
