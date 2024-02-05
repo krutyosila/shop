@@ -16,7 +16,7 @@
                           d="M4 6h16M4 12h16M4 18h16"/>
                 </svg>
             </button>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="{{ url('/') }}">
                 <x-brand.logo class="w-auto h-6 text-indigo-600"/>
             </a>
             <div class="d-block d-lg-none">
