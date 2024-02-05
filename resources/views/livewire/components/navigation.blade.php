@@ -26,7 +26,7 @@
         <div class="lg:order-last d-flex w-100 w-lg-25 justify-end align-items-center mt-2 mt-lg-0">
             <x-header.search />
             <div class="d-none d-lg-block ms-3">
-                @livewire('components.cart')
+
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
