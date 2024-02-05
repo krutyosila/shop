@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg border-b">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="{{ url('/') }}">
             <x-brand.logo class="w-auto h-6 text-indigo-600"/>
         </a>
         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
