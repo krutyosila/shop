@@ -59,7 +59,7 @@
                                             </p>
 
                                             <span class="block mt-1 text-xs text-gray-500">
-                                                {{ $line['identifier'] }} / {{ $line['options'] }}
+                                                {{ $line['options'] }}
                                             </span>
 
                                             <div class="flex items-center mt-2">
