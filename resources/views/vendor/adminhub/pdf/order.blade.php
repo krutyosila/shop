@@ -144,9 +144,6 @@
                         <th width="35%">
                             Product
                         </th>
-                        <th width="28%">
-                            SKU
-                        </th>
                         <th width="10%">
                             Qty
                         </th>
@@ -173,9 +170,6 @@
                       <td>
                         {{ $line->description }} <br>
                         {{ $line->option }}
-                      </td>
-                      <td>
-                        {{ $line->identifier }}
                       </td>
                       <td>
                         {{ $line->quantity }}
