@@ -1,8 +1,8 @@
-<div class="sm:relative"
+<div class="sm:relative me-2"
      x-data="{
          linesVisible: @entangle('linesVisible')
      }">
-    <button class="grid w-16 h-16 transition border-l border-gray-100 lg:border-l-transparent hover:opacity-75"
+    <button class="border-0" type="button"
             x-on:click="linesVisible = !linesVisible">
         <span class="sr-only">Cart</span>
 
@@ -15,16 +15,17 @@
                 <path stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                      d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
             </svg>
         </span>
     </button>
 
-    <div class="absolute inset-x-0 top-auto z-50 w-screen max-w-sm px-6 py-8 mx-auto mt-4 bg-white border border-gray-100 shadow-xl sm:left-auto rounded-xl"
-         x-show="linesVisible"
-         x-on:click.away="linesVisible = false"
-         x-transition
-         x-cloak>
+    <div
+        class="absolute inset-x-0 top-auto z-50 w-screen max-w-sm px-6 py-8 mx-auto mt-4 bg-white border border-gray-100 shadow-xl sm:left-auto rounded-xl"
+        x-show="linesVisible"
+        x-on:click.away="linesVisible = false"
+        x-transition
+        x-cloak>
         <button class="absolute text-gray-500 transition-transform top-3 right-3 hover:scale-110"
                 type="button"
                 aria-label="Close"
@@ -37,7 +38,7 @@
                 <path stroke-linecap="round"
                       stroke-linejoin="round"
                       stroke-width="2"
-                      d="M6 18L18 6M6 6l12 12" />
+                      d="M6 18L18 6M6 6l12 12"/>
             </svg>
         </button>
 
@@ -63,17 +64,19 @@
                                             </span>
 
                                             <div class="flex items-center mt-2">
-                                                <input class="w-16 p-2 text-xs transition-colors border border-gray-100 rounded-lg hover:border-gray-200"
-                                                       type="number"
-                                                       wire:model="lines.{{ $index }}.quantity" />
+                                                <input
+                                                    class="w-16 p-2 text-xs transition-colors border border-gray-100 rounded-lg hover:border-gray-200"
+                                                    type="number"
+                                                    wire:model="lines.{{ $index }}.quantity"/>
 
                                                 <p class="ml-2 text-xs">
                                                     @ {{ $line['unit_price'] }}
                                                 </p>
 
-                                                <button class="p-2 ml-auto text-gray-600 transition-colors rounded-lg hover:bg-gray-100 hover:text-gray-700"
-                                                        type="button"
-                                                        wire:click="removeLine('{{ $line['id'] }}')">
+                                                <button
+                                                    class="p-2 ml-auto text-gray-600 transition-colors rounded-lg hover:bg-gray-100 hover:text-gray-700"
+                                                    type="button"
+                                                    wire:click="removeLine('{{ $line['id'] }}')">
                                                     <svg xmlns="http://www.w3.org/2000/svg"
                                                          class="w-4 h-4"
                                                          fill="none"
@@ -82,7 +85,7 @@
                                                         <path stroke-linecap="round"
                                                               stroke-linejoin="round"
                                                               stroke-width="2"
-                                                              d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+                                                              d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
                                                     </svg>
                                                 </button>
                                             </div>
@@ -90,8 +93,9 @@
                                     </div>
 
                                     @if ($errors->get('lines.' . $index . '.quantity'))
-                                        <div class="p-2 mb-4 text-xs font-medium text-center text-red-700 rounded bg-red-50"
-                                             role="alert">
+                                        <div
+                                            class="p-2 mb-4 text-xs font-medium text-center text-red-700 rounded bg-red-50"
+                                            role="alert">
                                             @foreach ($errors->get('lines.' . $index . '.quantity') as $error)
                                                 {{ $error }}
                                             @endforeach
@@ -125,9 +129,10 @@
 
         @if ($this->cart)
             <div class="mt-4 space-y-4 text-center">
-                <button class="block w-full p-3 text-sm font-medium text-blue-800 border border-blue-600 rounded-lg hover:ring-1 hover:ring-blue-600"
-                        type="button"
-                        wire:click="updateLines">
+                <button
+                    class="block w-full p-3 text-sm font-medium text-blue-800 border border-blue-600 rounded-lg hover:ring-1 hover:ring-blue-600"
+                    type="button"
+                    wire:click="updateLines">
                     Update Cart
                 </button>
 
