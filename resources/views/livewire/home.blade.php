@@ -8,7 +8,7 @@
 
     @if ($this->products)
         <section>
-            <h2 class="text-3xl font-bold text-center">
+            <h2 class="text-2xl font-bold text-center uppercase">
                 Best Sellers
             </h2>
 
