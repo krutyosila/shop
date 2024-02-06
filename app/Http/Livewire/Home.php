@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use Lunar\Models\Collection;
+use Lunar\Models\Product;
 use Lunar\Models\Url;
 
 class Home extends Component
@@ -42,17 +43,16 @@ class Home extends Component
     /**
      * Return a random collection.
      *
-     * @return void
+     * @return \LaravelIdea\Helper\Lunar\Models\_IH_Product_C|Product[]
      */
-    public function getRandomCollectionProperty()
+    public function getProductsProperty()
     {
-        $collections = Url::whereElementType(Collection::class);
-
+        /*
         if ($this->getSaleCollectionProperty()) {
             $collections = $collections->where('element_id', '!=', $this->getSaleCollectionProperty()?->id);
         }
-
-        return $collections->inRandomOrder()->first()?->element;
+        */
+        return Product::inRandomOrder()->limit(8)->get();
     }
 
     public function render()
