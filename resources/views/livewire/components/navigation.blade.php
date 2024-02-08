@@ -68,10 +68,10 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">FAQ</a>
+                    <a href="{{ route('faq.page') }}" class="nav-link">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Payment</a>
+                    <a href="{{ route('payment.page') }}" class="nav-link">Payment</a>
                 </li>
             </ul>
         </div>
