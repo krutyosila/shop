@@ -24,18 +24,21 @@
             </div>
         </div>
         <div class="lg:order-last d-flex w-100 w-lg-25 justify-end align-items-center mt-2 mt-lg-0">
-            <x-header.search />
+            <x-header.search/>
             <div class="d-none d-lg-block ms-3">
                 @livewire('components.cart')
             </div>
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 font-bold">
+                <!--
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
                 </li>
+                -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle {{ request()->is('collections*') ? 'active' : '' }}"
+                       href="#" role="button" data-bs-toggle="dropdown"
                        aria-expanded="false">
                         Categories
                     </a>
@@ -52,7 +55,8 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    <a class="nav-link dropdown-toggle {{ request()->is('brands*') ? 'active' : '' }}"
+                       href="#" role="button" data-bs-toggle="dropdown"
                        aria-expanded="false">
                         Brands
                     </a>
@@ -68,10 +72,11 @@
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('faq.page') }}" class="nav-link">FAQ</a>
+                    <a href="{{ route('faq.page') }}"
+                       class="nav-link {{ request()->is('faq') ? 'active' : '' }}">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('payment.page') }}" class="nav-link">Payment</a>
+                    <a href="{{ route('payment.page') }}" class="nav-link {{ request()->is('payment') ? 'active' : '' }}">Payment</a>
                 </li>
             </ul>
         </div>
