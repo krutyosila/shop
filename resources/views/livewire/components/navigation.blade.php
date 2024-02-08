@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg border-b">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-lg shadow-sm bg-light">
+    <div class="container">
         <div class="flex items-center justify-between w-100 w-lg-auto">
             <button class="navbar-toggler ps-0 pe-0 border-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
