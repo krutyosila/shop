@@ -8,6 +8,7 @@
     @if ($currentStep >= $step)
         <div class="p-6 space-y-4">
             <div class="flex gap-4">
+                <!--
                 <button @class([
                     'px-5 py-2 text-sm border font-medium rounded-lg',
                     'text-green-700 border-green-600 bg-green-50' => $paymentType === 'card',
@@ -17,6 +18,7 @@
                         wire:click.prevent="$set('paymentType', 'card')">
                     Pay by card
                 </button>
+                -->
 
                 <button @class([
                     'px-5 py-2 text-sm border font-medium rounded-lg',
