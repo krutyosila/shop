@@ -3,6 +3,7 @@
 namespace App\Http\Livewire;
 
 use Livewire\Component;
+use Lunar\Models\Brand;
 use Lunar\Models\Collection;
 use Lunar\Models\Product;
 use Lunar\Models\Url;
@@ -53,6 +54,10 @@ class Home extends Component
         }
         */
         return Product::inRandomOrder()->limit(8)->get();
+    }
+
+    public function getBrandsProperty() {
+        return Brand::all();
     }
 
     public function render()
