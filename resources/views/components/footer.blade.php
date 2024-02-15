@@ -1,12 +1,12 @@
 <footer class="bg-gray-50">
     <div class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:px-8">
-        <div class="d-lg-flex align-items-center justify-between text-center">
+        <div class="d-flex align-items-center justify-between text-center">
             <x-brand.logo class="w-auto h-8 text-indigo-600"/>
-            <img src="{{ asset('img/paymethods.png') }}" style="width: 100%; max-width: 420px;" alt=""
-                class="mt-4 mt-md-0">
+            <img src="{{ asset('img/paymethods.png') }}" alt=""
+                class="ms-4 w-50" style="max-width: 420px;">
         </div>
         <div class="mt-3 small text-muted">
-            Copyright © 2019-&copy; {{ now()->year }} HghRoid.com © All Rights Reserved
+            HghRoid.com © 2019-{{ now()->year }} - All Rights Reserved
         </div>
         <div class="pt-4 mt-4 text-sm text-gray-500 border-t border-gray-100" style="text-align: justify;">
             <p class="max-w-sm mt-4 text-gray-700">
