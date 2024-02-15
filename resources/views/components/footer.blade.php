@@ -5,7 +5,10 @@
             <img src="{{ asset('img/paymethods.png') }}" style="width: 100%; max-width: 420px;" alt=""
                 class="mt-4 mt-md-0">
         </div>
-        <div class="small text-muted" style="text-align: justify;">
+        <div class="mt-3 small text-muted">
+            Copyright © 2019-&copy; {{ now()->year }} HghRoid.com © All Rights Reserved
+        </div>
+        <div class="pt-4 mt-4 text-sm text-gray-500 border-t border-gray-100" style="text-align: justify;">
             <p class="max-w-sm mt-4 text-gray-700">
                 <b>WHY HGHROID TO BUY ANABOLIC STEROIDS?</b>
             <p>
@@ -54,10 +57,5 @@
                 info; Don’t forget to consult your doctor before using anabolic steroids and hormones!
             </p>
         </div>
-        <p class="pt-4 mt-4 text-sm text-gray-500 border-t border-gray-100">
-
-            Copyright © 2019-&copy; {{ now()->year }} HghRoid.com © All Rights Reserved
-        </p>
-
     </div>
 </footer>
