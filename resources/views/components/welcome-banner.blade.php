@@ -2,7 +2,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="d-none d-md-block">
-                <img src="data:image/gif;base64,R0lGODlhAQABAIAAAMLCwgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" class="d-block w-100" alt="" style="height: 480px">
+                <img src="//hghroid.com/wp-content/uploads/2022/12/FB3B1625-9E33-45C9-9F1A-2B4FC6C3636C.jpeg" class="d-block w-100" alt="" style="height: 480px">
             </div>
             <div class="d-md-none">
                 <img src="{{ asset('img/img.png')  }}" class="d-block w-100" alt="">
