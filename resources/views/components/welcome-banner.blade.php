@@ -3,6 +3,7 @@
         <div class="carousel-item active">
             <div class="d-none d-md-block">
                 <img src="{{ asset('img/bannweb1.jpeg') }}" class="d-block w-100" alt="" style="height: 480px">
+
             </div>
             <div class="d-md-none">
                 <img src="{{ asset('img/img.png')  }}" class="d-block w-100" alt="">
