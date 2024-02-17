@@ -12,6 +12,11 @@
         <img src="{{ asset('img/banner_5.jpeg') }}"
              class="d-block border rounded w-100" alt="" style="max-height: 180px">
     </div>
+
+    <div class="block rounded overflow-hidden">
+        <img src="{{ asset('img/banner_6.jpeg') }}"
+             class="d-block border rounded w-100" alt="" style="max-height: 180px">
+    </div>
     <!--
     @foreach ($this->brands as $brand)
         <div class="block rounded overflow-hidden">
