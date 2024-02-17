@@ -1,4 +1,4 @@
-<div class="grid grid-cols-2 mt-8 lg:grid-cols-3 gap-x-4 gap-y-8">
+<div class="grid grid-cols-2 mt-8 lg:grid-cols-4 gap-x-4 gap-y-8">
     <div class="block rounded overflow-hidden">
         <img src="{{ asset('img/banner_1.png') }}"
              class="d-block border rounded w-100" alt="" style="max-height: 180px">
