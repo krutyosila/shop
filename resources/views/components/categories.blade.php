@@ -7,7 +7,7 @@
                 $media = $brand->getMedia('images');
                 @endphp
                 <img src="{{$media[0]->getFullUrl()}}"
-                     class="d-block w-100" alt="" style="height: 180px">
+                     class="d-block w-100" alt="" style="max-height: 180px">
 
         </a>
         @endif
