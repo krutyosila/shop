@@ -63,15 +63,16 @@
                     <ul class="dropdown-menu">
                         @foreach ($brands as $brand)
                             <li>
-                                <a class="dropdown-item d-flex align-items-center justify-content-between"
+                                <a class="dropdown-item d-flex align-items-center"
                                    href="{{ route('brands.view', $brand->defaultUrl->slug) }}">
                                     @if($brand->defaultUrl->slug == 'xt-labs')
                                         <img src="{{ asset('img/us.svg') }}" style="height: 20px;" alt="">
                                     @else
                                         <img src="{{ asset('img/international.svg') }}" style="height: 20px;" alt="">
                                     @endif
+                                    <span class="ps-3 w-100">
                                     {{ $brand->translate('name') }}
-
+                                    </span>
                                 </a>
                             </li>
                         @endforeach
