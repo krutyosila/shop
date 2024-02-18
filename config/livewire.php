@@ -41,6 +41,7 @@ return [
 
     'layout' => 'layouts.storefront',
 
+
     /*
     |--------------------------------------------------------------------------
     | Livewire Assets URL
