@@ -70,7 +70,7 @@
                                     @else
                                         <img src="{{ asset('img/international.svg') }}" style="height: 20px;" alt="">
                                     @endif
-                                    <span class="ps-3 w-100">
+                                    <span class="ps-3 pe-4 w-100">
                                     {{ $brand->translate('name') }}
                                     </span>
                                 </a>
