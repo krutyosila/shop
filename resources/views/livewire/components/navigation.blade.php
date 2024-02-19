@@ -45,9 +45,17 @@
                     <ul class="dropdown-menu">
                         @foreach ($this->collections as $collection)
                             <li>
-                                <a class="dropdown-item"
+                                <a class="dropdown-item d-flex align-items-center"
                                    href="{{ route('collection.view', $collection->defaultUrl->slug) }}">
-                                    {{ $collection->translateAttribute('name') }}
+                                    @if($collection->getMedia('images')->count() > 0)
+                                        @php
+                                            $media = $collection->getMedia('images');
+                                        @endphp
+                                        <img src="{{$media[0]->getFullUrl()}}" style="height: 20px" alt="">
+                                    @endif
+                                    <span class="ps-3 pe-4 w-100">
+                                        {{ $collection->translateAttribute('name') }}
+                                    </span>
                                 </a>
                             </li>
                         @endforeach
@@ -83,7 +91,8 @@
                        class="nav-link {{ request()->is('faq') ? 'active' : '' }}">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('payment.page') }}" class="nav-link {{ request()->is('payment') ? 'active' : '' }}">Payment</a>
+                    <a href="{{ route('payment.page') }}"
+                       class="nav-link {{ request()->is('payment') ? 'active' : '' }}">Payment</a>
                 </li>
             </ul>
         </div>
