@@ -168,7 +168,7 @@
                   @foreach($order->physicalLines as $line)
                     <tr>
                       <td>
-                        {{ $line->description }} <br>
+                        {!! $line->description !!} <br>
                         {{ $line->option }}
                       </td>
                       <td>

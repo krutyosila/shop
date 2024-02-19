@@ -16,7 +16,7 @@
 
                                 <div class="flex-1 ml-4">
                                     <p class="text-sm font-medium max-w-[35ch]">
-                                        {{ $line->purchasable->getDescription() }}
+                                        {!! $line->purchasable->getDescription() !!}
                                     </p>
 
                                     <span class="block mt-1 text-xs text-gray-500">
@@ -43,7 +43,7 @@
                         @if ($this->shippingOption)
                             <div class="flex flex-wrap py-4">
                                 <dt class="w-1/2 font-medium">
-                                    {{ $this->shippingOption->getDescription() }}
+                                    {!! $this->shippingOption->getDescription() !!}
                                 </dt>
 
                                 <dd class="w-1/2 text-right">
@@ -55,7 +55,7 @@
                         @foreach ($cart->taxBreakdown->amounts as $tax)
                             <div class="flex flex-wrap py-4">
                                 <dt class="w-1/2 font-medium">
-                                    {{ $tax->description }}
+                                    {!! $tax->description !!}
                                 </dt>
 
                                 <dd class="w-1/2 text-right">

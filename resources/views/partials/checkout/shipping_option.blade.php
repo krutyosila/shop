@@ -30,7 +30,7 @@
                             <label class="flex items-center justify-between p-4 text-sm font-medium border border-gray-100 rounded-lg shadow-sm cursor-pointer peer-checked:border-blue-500 hover:bg-gray-50 peer-checked:ring-1 peer-checked:ring-blue-500"
                                    for="{{ $option->getIdentifier() }}">
                                 <p>
-                                    {{ $option->getDescription() }}
+                                    {!! $option->getDescription() !!}
                                 </p>
 
                                 <p>
@@ -49,7 +49,7 @@
             @elseif($currentStep > $step && $this->shippingOption)
                 <dl class="flex flex-wrap max-w-xs text-sm">
                     <dt class="w-1/2 font-medium">
-                        {{ $this->shippingOption->getDescription() }}
+                        {!! $this->shippingOption->getDescription() !!}
                     </dt>
 
                     <dd class="w-1/2 text-right">

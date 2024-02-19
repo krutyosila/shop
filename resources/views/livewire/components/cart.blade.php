@@ -55,7 +55,7 @@
 
                                         <div class="flex-1 ml-4">
                                             <p class="max-w-[20ch] text-sm font-medium">
-                                                {{ $line['description'] }}
+                                                {!! $line['description'] !!}
                                             </p>
 
                                             <span class="block mt-1 text-xs text-gray-500">
