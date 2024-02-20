@@ -47,4 +47,13 @@ class Handler extends ExceptionHandler
             //
         });
     }
+
+    public function render($request, Exception|Throwable $exception)
+    {
+        if ($exception instanceof \Illuminate\Auth\AuthenticationException) {
+            return parent::render($request, $exception);
+        } else {
+            return redirect()->to('/', 301);
+        }
+    }
 }
