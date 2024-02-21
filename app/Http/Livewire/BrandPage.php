@@ -44,7 +44,16 @@ class BrandPage extends Component
      */
     public function getBrandProperty()
     {
+
         return $this->url->element;
+    }
+
+    public function getMetaProperty()
+    {
+        return (object)[
+            'title' => $this->url->translate('name'),
+            'description' => $this->url->translate('name')
+        ];
     }
 
     /**
