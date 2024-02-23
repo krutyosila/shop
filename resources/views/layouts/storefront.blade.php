@@ -7,10 +7,10 @@
         name="viewport"
         content="width=device-width, initial-scale=1"
     >
-    <title>HGHROID</title>
+    <title>HGHROID, Buy Steroids USA, EU Domestic</title>
     <meta
         name="description"
-        content="Example of an ecommerce storefront built with Lunar."
+            content="BuWe, as HGHROID, have been providing quality and 100% original anabolic steroid, growth hormones and peptides to people for 3 years."
     >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -36,7 +36,9 @@
     >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <style>
         body {
             font-family: "Roboto Condensed", sans-serif;

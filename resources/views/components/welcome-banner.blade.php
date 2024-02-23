@@ -2,11 +2,18 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="d-none d-md-block">
-                <img src="{{ asset('img/bannweb1.jpeg') }}" class="d-block w-100" alt="" style="height: 480px">
-
+                <img src="{{ asset('img/slider/web-banner-1.jpg') }}" class="d-block w-100" alt="" style="height: 480px">
             </div>
             <div class="d-md-none">
-                <img src="{{ asset('img/img.png')  }}" class="d-block w-100" alt="">
+                <img src="{{ asset('img/slider/mobile-banner-1.jpg')  }}" class="d-block w-100" alt="">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="d-none d-md-block">
+                <img src="{{ asset('img/slider/web-banner-2.jpg') }}" class="d-block w-100" alt="" style="height: 480px">
+            </div>
+            <div class="d-md-none">
+                <img src="{{ asset('img/slider/mobile-banner-2.jpg')  }}" class="d-block w-100" alt="">
             </div>
         </div>
     </div>
