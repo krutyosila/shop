@@ -11,52 +11,54 @@
             HghRoid.com © 2019-{{ now()->year }} - All Rights Reserved
         </div>
         <div class="pt-4 mt-4 text-sm text-gray-500 border-t border-gray-100" style="text-align: justify;">
+
             <p class="max-w-sm mt-4 text-gray-700">
-                <b>WHY HGHROID TO BUY ANABOLIC STEROIDS?</b>
+                <strong>Why buy anabolic steroids from Hghroid?</strong>
             <p>
-                Anabolic steroids are sold everywhere now but why should we be very careful when purchasing these
-                products?
-                Because our customers who contact us for the first time usually say the following; I bought anabolic
-                steroid
-                but I couldn’t grow because it’s fake.. yes, there are hundreds of fake anabolic steroid and human
-                growth
-                hormone products.
-            </p>
-            <b>WHO ARE WE?</b>
-            <p>
-                We, as HGHROID, have been providing quality and 100% original anabolic steroid, growth hormones and
-                peptides
-                to people for 3 years. The reason for these discounted prices we give to people is that we send our
-                products
-                ourselves from our warehouse, not dropshipping. (Don’t forget to email us for trust references.)
-            </p>
-            <b>BE CAREFUL WHEN BUYING ANABOLIC STEROIDS ONLINE WHY?</b>
-            <p>
-                Be careful when purchasing anabolic steroid and hormones from websites because dozens of sites will not
-                take
-                your money and send you products. The scammers who say that they will give you these products at a very
-                affordable price will steal you. That’s why you can choose us to buy steroid. because we have good
-                reviews
-                and great references on trusted forum sites.
-            </p>
-            <b>OUR WAREHOUSES</b>
-            <p>
-                I have 3 different warehouses as Hghroid International shipping, eu domestic and us domestic.
+                Anabolic steroids are now sold everywhere, but why should we be so careful when purchasing these
+                products ? Because our customers who contact us for the first time usually say the following; I took
+                anabolic steroids but I couldn't grow bigger because it was fake.. yes because there are so many fake
+                anabolic steroids and human growth hormone products. For this reason, we sell you only the highest
+                quality brands that are known all over the world and have only tested results when it comes to buy
+                anabolic steroids online.
             </p>
             <p>
-                If you are looking for a place where you can buy steroids online USA, you are in the right place. In
-                this
-                way, we try to provide you with the best service we can and we are part of forum eroids to give you
-                confidence.
+                We provide you service for US domestic steroids and all other countries. And for the services you will
+                receive from us;
             </p>
+            <ul>
+                <li>-24/7 customer support.</li>
+                <li>-Discreet Packing Methods.</li>
+                <li>-Free Advice on building and steroid cycle.</li>
+                <li>-Workout Plans.</li>
+                <li>-Monthly deals.</li>
+                <li>-Guaranteed delivery.</li>
+            </ul>
+
+            <strong>Who are we ?</strong>
             <p>
-                You can safely order from our international warehouses to anywhere in the world.
+                As Hghroid, we are a website that offers you only 100% original steroids to buy original anabolic
+                steroids for your purpose while building muscle for your purpose. You can get all the information you
+                need to reach your goal by contacting us. We provide you with information and products on what kind of
+                cycle you will do, which drugs you will use, and what treatment products you need for PCT, the tests you
+                need to do, and all other necessary information. We offer you everything you need with our US domestic
+                anabolic steroid and pct products, with the best price and test guarantee. For US domestic, EU and UK
+                steroid buy please feel free to contact.
             </p>
+            <strong>Buy anabolic steroids with bitcoin ?</strong>
             <p>
-                You can safely order from any country in Europe for Eu shipping.
+                To buy anabolic steroids online to build the body you want, you can easily buy 100% original steroids
+                from our website. There are multiple payment methods to have the products on our site for the highest
+                quality steroid brands for your body. The safest of these is to buy anabolic steroids with bitcoin.
+                Choosing us to buy anabolic steroids with crypto will be enough for you.
             </p>
+            <strong>Human growth hormone choice ?</strong>
             <p>
-                info; Don’t forget to consult your doctor before using anabolic steroids and hormones!
+                The first thing to consider when choosing human growth hormone is that the product is a pharmacy
+                product. For this, Genotropin will be the best decision for you. Genotropin 36iu, a Turkish pharmacy
+                product, is the best HGH accepted by the whole world. The most reliable source to buy genotropin online
+                is Hghroid. Because Hghroid offers you this product with an best price and a money-back guarantee with
+                US domestic Genotropin and international shipping.
             </p>
         </div>
     </div>
