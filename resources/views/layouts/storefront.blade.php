@@ -49,11 +49,11 @@
             position: absolute;
             top: 10px;
             right: 10px;
-            width: 34px;
-            height: 34px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             background: #FFF;
-            padding: 5px;
+            padding: 4px;
             z-index: 999;
         }
     </style>
