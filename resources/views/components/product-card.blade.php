@@ -5,7 +5,7 @@
         @if($product->brand->defaultUrl->slug == 'xt-labs')
             <img src="{{ asset('img/us.svg') }}" class="product-brand" style="width: 40px; height: 40px;" alt="">
         @else
-            <img src="{{ asset('img/international.svg') }}" class="product-brand" style="width: 40px; height: 40px;" alt="">
+            <img src="{{ asset('img/international.svg') }}" class="product-brand" style="width: 24px; height: 24px;" alt="">
         @endif
         @if ($product->thumbnail)
             <img class="object-cover transition-transform duration-300 group-hover:scale-105"

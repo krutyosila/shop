@@ -49,8 +49,8 @@
             position: absolute;
             top: 10px;
             right: 10px;
-            width: 50px;
-            height: 50px;
+            width: 34px;
+            height: 34px;
             border-radius: 50%;
             background: #FFF;
             padding: 5px;
