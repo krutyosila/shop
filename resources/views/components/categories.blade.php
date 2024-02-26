@@ -1,10 +1,10 @@
 <div class="rounded overflow-hidden">
-    <div class="d-none d-md-block">
+    <a href="https://hghroid.com/brands/xt-labs" class="d-none d-md-block">
         <img src="{{ asset('img/slider/web-banner-2.jpg') }}" class="d-block w-100" alt="" style="height: 480px">
-    </div>
-    <div class="d-md-none">
+    </a>
+    <a href="https://hghroid.com/brands/xt-labs" class="d-md-none">
         <img src="{{ asset('img/slider/mobile-banner-3.jpg')  }}" class="d-block w-100" alt="">
-    </div>
+    </a>
 </div>
 <div class="grid grid-cols-2 mt-8 lg:grid-cols-4 gap-x-4 gap-y-8">
     @foreach ($this->brands as $brand)
