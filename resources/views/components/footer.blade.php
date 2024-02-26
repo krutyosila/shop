@@ -10,6 +10,7 @@
         <div class="mt-3 small text-muted">
             HghRoid.com © 2019-{{ now()->year }} - All Rights Reserved
         </div>
+        @if(request()->is('/'))
         <div class="pt-4 mt-4 text-sm text-gray-500 border-t border-gray-100" style="text-align: justify;">
 
             <p class="max-w-sm mt-4 text-gray-700">
@@ -60,6 +61,8 @@
                 is Hghroid. Because Hghroid offers you this product with an best price and a money-back guarantee with
                 US domestic Genotropin and international shipping.
             </p>
+
         </div>
+        @endif
     </div>
 </footer>
